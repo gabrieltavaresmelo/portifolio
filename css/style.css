@@ -1,9 +1,9 @@
 /*
 PALETA
 .color1 { #482344 };
-.color2 { #2b5166 };
+.color2 { #1d202f };
 .color3 { #429867 };
-.color4 { #fab243 };
+.color4 { #fec200 };
 .color5 { #e02130 };
 
 Template Name: Bako
@@ -77,7 +77,7 @@ img {
 }
 
 .background-blue {
-  background: #2b5166;
+  background: #1d202f;
 }
 
 /*=================================================================*/
@@ -114,7 +114,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 a:hover {
-  color: #fab243;
+  color: #fec200;
   text-decoration: none;
 }
 a:focus {
@@ -150,12 +150,12 @@ pre {
 
 ::selection {
   color: #FFF;
-  background: #fab243;
+  background: #fec200;
 }
 
 ::-moz-selection {
   color: #FFF;
-  background: #fab243;
+  background: #fec200;
 }
 
 .z-1 {
@@ -177,7 +177,7 @@ pre {
 /*=================================================================*/
 header.left {
   color: #FFF;
-  background: #2b5166;
+  background: #1d202f;
   border-radius: 20px;
   min-height: 620px;
   max-height: 620px;
@@ -195,7 +195,7 @@ header.left {
   transition: all 0.3s ease-in-out;
 }
 header.left nav {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 header.left .header-inner {
   width: 100%;
@@ -241,7 +241,7 @@ header.left button.close {
   border: 0;
   -webkit-appearance: none;
   opacity: 1;
-  color: #fab243;
+  color: #fec200;
   font-weight: 400;
   font-size: 16px;
   border-radius: 50%;
@@ -267,7 +267,7 @@ header .site-title {
 }
 header .site-title.dot:after {
   content: "";
-  background-color: #fab243;
+  background-color: #fec200;
   border-radius: 50%;
   display: inline-block;
   margin-left: 5px;
@@ -304,7 +304,7 @@ header .vertical-menu li a:hover {
 }
 header .vertical-menu li a.active:before {
   content: "";
-  background: #fab243;
+  background: #fec200;
   display: block;
   height: 18px;
   left: -30px;
@@ -318,7 +318,7 @@ header .copyright {
 }
 
 .mobile-header {
-  background: #2b5166;
+  background: #1d202f;
   border-radius: 20px;
   display: none;
   -webkit-transform: translateX(0);
@@ -348,7 +348,7 @@ header .copyright {
 }
 .mobile-header .site-title.dot:after {
   content: "";
-  background-color: #fab243;
+  background-color: #fec200;
   border-radius: 50%;
   display: inline-block;
   margin-left: 5px;
@@ -424,7 +424,7 @@ main.content.push {
 }
 .hero .cta h1 .dot:after {
   content: "";
-  background-color: #fab243;
+  background-color: #fec200;
   border-radius: 50%;
   display: inline-block;
   margin-left: 5px;
@@ -460,7 +460,7 @@ section.padding-60 {
 }
 .section-title:after {
   content: "";
-  background: #fab243;
+  background: #fec200;
   border-radius: 25px;
   display: block;
   height: 5px;
@@ -505,8 +505,8 @@ section.padding-60 {
   transition: all 0.3s ease-in-out;
 }
 .service-item:hover {
-  border-color: #fab243;
-  background: #fab243;
+  border-color: #fec200;
+  background: #fec200;
   color: #FFF;
   -webkit-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.15);
@@ -527,13 +527,13 @@ section.padding-60 {
   left: calc(20% + 2px);
   bottom: 0px;
   width: 1px;
-  background: #fab243;
+  background: #fec200;
 }
 .timeline-line::before, .timeline-line::after {
   content: "";
   display: block;
   border-radius: 100%;
-  background: #fab243;
+  background: #fec200;
   position: absolute;
   left: -3px;
   height: 7px;
@@ -571,7 +571,7 @@ section.padding-60 {
   position: absolute;
   width: 8px;
   height: 8px;
-  border: 1px solid #fab243;
+  border: 1px solid #fec200;
   background-color: #fff;
   border-radius: 100%;
   padding: 4.5px;
@@ -646,7 +646,7 @@ section.padding-60 {
   transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
 }
 .portfolio-item .plus-icon {
-  color: #fab243;
+  color: #fec200;
   background: #FFF;
   border-radius: 100%;
   position: absolute;
@@ -664,7 +664,7 @@ section.padding-60 {
   transition: all 0.3s ease-in-out;
 }
 .portfolio-item .mask {
-  background: #fab243;
+  background: #fec200;
   position: absolute;
   left: 0;
   top: 0;
@@ -712,7 +712,7 @@ section.padding-60 {
 }
 
 .portfolio-info i {
-  color: #fab243;
+  color: #fec200;
   font-size: 14px;
   margin-right: 10px;
 }
@@ -734,7 +734,7 @@ section.padding-60 {
   height: 7px;
 }
 .portfolio-filter li.current {
-  background: #fab243;
+  background: #fec200;
   color: #FFF;
   padding: 6px 14px 4px;
   border-radius: 30px;
@@ -751,7 +751,7 @@ section.padding-60 {
 .price-item i {
   background: #FFF;
   font-size: 24px;
-  color: #fab243;
+  color: #fec200;
   display: block;
   border-radius: 50%;
   border: solid 1px #EFEFEF;
@@ -774,7 +774,7 @@ section.padding-60 {
 .price-item .plan {
   font-size: 12px;
   color: #FFF;
-  background: #fab243;
+  background: #fec200;
   border-radius: 25px;
   display: inline-block;
   padding: 1px 9px;
@@ -807,7 +807,7 @@ section.padding-60 {
 }
 .price-item.recommended {
   color: #FFF;
-  background: #2b5166;
+  background: #1d202f;
 }
 .price-item.recommended .price {
   color: #FFF;
@@ -823,7 +823,7 @@ section.padding-60 {
 }
 .testimonial-item .symbol {
   font-weight: bold;
-  color: #fab243;
+  color: #fec200;
   font-size: 12px;
   margin-bottom: 20px;
   display: block;
@@ -908,7 +908,7 @@ section.padding-60 {
 }
 .blog-item .category {
   border-radius: 50px;
-  background: #fab243;
+  background: #fec200;
   color: #FFF;
   font-size: 12px;
   padding: 1px 8px;
@@ -926,7 +926,7 @@ section.padding-60 {
 }
 .blog-item .meta li:after {
   content: "";
-  background: #fab243;
+  background: #fec200;
   border-radius: 100%;
   display: inline-block;
   height: 3px;
@@ -940,7 +940,7 @@ section.padding-60 {
 
 .contact-info i {
   font-size: 24px;
-  color: #fab243;
+  color: #fec200;
   float: left;
 }
 .contact-info .details {
@@ -956,7 +956,7 @@ section.padding-60 {
 /*=================================================================*/
 .overlay {
   border-radius: 20px;
-  background: #2b5166;
+  background: #1d202f;
   left: 0;
   top: 0;
   opacity: 0.9;
@@ -969,7 +969,7 @@ section.padding-60 {
   font-size: 24px;
   color: #FFF;
   display: inline-block;
-  background: #fab243;
+  background: #fec200;
   border-radius: 50%;
   height: 50px;
   line-height: 50px;
@@ -978,7 +978,7 @@ section.padding-60 {
 }
 
 .icon-simple {
-  color: #fab243;
+  color: #fec200;
   font-size: 24px;
 }
 
@@ -1042,10 +1042,10 @@ section.padding-60 {
 
 .btn-default {
   color: #FFF;
-  background: #fab243;
+  background: #fec200;
 }
 .btn-default:hover {
-  background: #2b5166;
+  background: #1d202f;
   color: #FFF;
   -webkit-transform: translateY(-3px);
   -moz-transform: translateY(-3px);
@@ -1059,11 +1059,11 @@ section.padding-60 {
 
 .btn-alt {
   color: #FFF;
-  background: #2b5166;
+  background: #1d202f;
 }
 .btn-alt:hover {
   color: #FFF;
-  background: #fab243;
+  background: #fec200;
   -webkit-transform: translateY(-3px);
   -moz-transform: translateY(-3px);
   -ms-transform: translateY(-3px);
@@ -1076,7 +1076,7 @@ section.padding-60 {
 
 .btn-border {
   color: #FFF;
-  background: #2b5166;
+  background: #1d202f;
 }
 .btn-border:hover {
   color: #FFF;
@@ -1157,7 +1157,7 @@ section.padding-60 {
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #fab243;
+  background-color: #fec200;
   border-radius: 100%;
   -webkit-animation: sk-bounce 2s infinite ease-in-out;
   animation: sk-bounce 2s infinite ease-in-out;
@@ -1234,7 +1234,7 @@ section.padding-60 {
 }
 
 .form-control:focus {
-  border-color: #fab243;
+  border-color: #fec200;
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -1356,7 +1356,7 @@ section.padding-60 {
   line-height: 3px;
   color: #fff;
   text-align: center;
-  background-color: #fab243;
+  background-color: #fec200;
   -webkit-box-shadow: none;
   box-shadow: none;
   -webkit-transition: width 0.6s ease;
@@ -1372,7 +1372,7 @@ section.padding-60 {
 }
 .social-icons li a {
   color: #FFF;
-  background: #fab243;
+  background: #fec200;
   border-radius: 50%;
   display: block;
   height: 30px;
@@ -1381,7 +1381,7 @@ section.padding-60 {
   width: 30px;
 }
 .social-icons li a:hover {
-  color: #fab243;
+  color: #fec200;
   background: #FFF;
 }
 
@@ -1423,7 +1423,7 @@ section.padding-60 {
 }
 
 #return-to-top:hover {
-  background: #fab243;
+  background: #fec200;
 }
 
 .videoWrapper {
@@ -1587,7 +1587,7 @@ section.padding-60 {
 }
 
 .slick-dots li.slick-active button:before {
-  background: #fab243;
+  background: #fec200;
   opacity: 1;
   height: 7px;
   width: 7px;
@@ -1604,7 +1604,7 @@ section.padding-60 {
 
 .slick-dots li button:hover:before, .slick-dots li button:focus:before {
   opacity: 1;
-  background: #fab243;
+  background: #fec200;
 }
 
 /*=================================================================*/
@@ -1714,4 +1714,12 @@ section.padding-60 {
 
 .dev-icons {
   font-size: 2.2rem;
+}
+
+.lang-ul {
+  margin-bottom: 0 !important;
+}
+
+.lang-img {
+  width: 35px;
 }
